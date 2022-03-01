@@ -9,7 +9,7 @@ public class hello {
     @RequestMapping("/test")
     @ResponseBody
     public String test(){
-        return "Hello,SpringBoot";
+        return "Hello,SpringBoot!";
     }
 
 }
