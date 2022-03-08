@@ -8,8 +8,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class hello {
     @RequestMapping("/test")
     @ResponseBody
-    public String test(){
+    public String test1(){
         return "Hello,SpringBoot!";
+    }
+    public String test2(){
+        return "你好";
     }
 
 }
